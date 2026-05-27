@@ -2,7 +2,7 @@ return {
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
-      "onsails/lspkind.nvim", -- Provides the VS-Code style icons
+      "onsails/lspkind.nvim",  
     },
     opts = function(_, opts)
       local cmp = require("cmp")
@@ -20,7 +20,7 @@ return {
         }),
       }
 
-      -- 2. Format columns like SalarAlo (Icon -> Name -> Source Tag)
+       
       opts.formatting = {
         fields = { "kind", "abbr", "menu" },
         format = lspkind.cmp_format({
