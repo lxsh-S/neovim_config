@@ -1,18 +1,18 @@
 return {
- 
-  { "ramojus/mellifluous.nvim" },
-  { "bjarneo/vantablack.nvim", opts = { transparent = true } },
- 
-  { "darkvoid-theme/darkvoid.nvim", opts = { transparent = true } },
-  { "bjarneo/aether.nvim", opts = { transparent = true } },
 
- 
+  { "ramojus/mellifluous.nvim" },
+  { "bjarneo/vantablack.nvim",         opts = { transparent = true } },
+
+  { "darkvoid-theme/darkvoid.nvim",    opts = { transparent = true } },
+  { "bjarneo/aether.nvim",             opts = { transparent = true } },
+
+
   { "oskarnurm/koda.nvim" },
   { "andreypopp/vim-colors-plain" },
   { "folke/tokyonight.nvim" },
-  { "catppuccin/nvim", name = "catppuccin" },
+  { "catppuccin/nvim",                 name = "catppuccin" },
   { "rebelot/kanagawa.nvim" },
-  { "rose-pine/neovim", name = "rose-pine" },
+  { "rose-pine/neovim",                name = "rose-pine" },
   { "ellisonleao/gruvbox.nvim" },
   { "shaunsingh/nord.nvim" },
   { "navarasu/onedark.nvim" },
@@ -26,11 +26,11 @@ return {
   { "nyoom-engineering/oxocarbon.nvim" },
   { "RRethy/base16-nvim" },
 
- 
+
   {
     "LazyVim/LazyVim",
-    opts = {  
-      colorscheme = "edge",
+    opts = {
+      colorscheme = "koda-dark",
     },
   },
 }
